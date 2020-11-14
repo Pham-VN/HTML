@@ -1,0 +1,174 @@
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal */
+
+.head {
+  background-color: #2F4F4F;
+  display: flex;
+  /* tao khoang trong giua nhung item  */
+  justify-content: space-between;
+  color:white;
+  padding: 20px 15% 20px 15%;
+}
+h1 {
+  font-weight: bold;
+}
+.head_right {
+  padding-top: 20px;
+  font-weight: bold;
+}
+a {
+  display: inline;
+  padding-left: 20px;
+  font-size: 20px;
+}
+a.highlight:hover {
+  color: #ff0000;
+}
+.jum {
+  background-color: #19b7a1;
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
+#title {
+    font-size: 64px;
+    color: white;
+}
+#anh {
+  width: 250px;
+  height: 250px;
+}
+.icon {
+  font-size: 48px;
+}
+.icon2 {
+  font-size: 48px;
+  color: black;
+}
+.main_title {
+  text-align: center;
+  font-size: 60px;
+  font-style: bold;
+  padding-top: 70px;
+}
+anh1 {
+  width: 300px;
+  height: 300px;
+}
+#main_contenu {
+  padding-top: 50px;
+}
+img {
+  border-radius: 5px;
+  width:320px;
+}
+.pres_foot {
+  margin-top: 80px;
+  background-color: #19b7a1;
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
+.colum {
+  font-size: 20px;
+  column-count: 2;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: left;
+}
+
+.button1 {
+  border: 2px solid;
+  border-radius: 8px;
+  border-color:white;
+  color: white;
+  background-color: #19b7a1;
+  padding: 20px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.button1:hover {
+  color: black;
+  background-color: white;
+}
+
+.contact {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+  color: black;
+}
+input[type=text] {
+  width: 50%;
+  padding:30px 40px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gray;
+  font-size: 30px;
+}
+input[type=message] {
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gray;
+  font-size: 30px;
+}
+.btn_send{
+  background-color:  #19b7a1;
+  color: white;
+  width: 8%;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 1px;
+  
+}
+input::placeholder {
+  color:black;
+  text-align: justify;
+}
+#contact {
+  padding-top: 70px;
+  background-color:  #2F4F4F;
+  color: white;
+  margin-bottom: 0px;
+}
+#l1 {
+  font-size: 30px;
+  margin-left: 400px;
+}
+#n1 {
+  font-size: 20px;
+}
+#l2 {
+  margin-left: -200px;
+}
+#l3 {
+  padding-top: -200px;
+  margin-left: -200px;
+  font-size: 20px;
+}
+.fa {
+  text-align: left;
+  color: white;
+  font-size: 100px; 
+}
+.footer {
+  margin-top: -30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: black;
+  color:white;
+  font-size: 12px;
+  text-align: center;
+}
